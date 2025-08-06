@@ -13,3 +13,13 @@ section {
   display: flex;
   height: 100vh;
 }
+
+.sidebar {
+  width: 260px;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
