@@ -67,3 +67,13 @@ section {
   font-size: 12px;
   color: #777;
 }
+
+.status-online::before {
+  content: "•";
+  color: green;
+}
+
+.status-offline::before {
+  content: "•";
+  color: red;
+}
