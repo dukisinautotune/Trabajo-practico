@@ -187,3 +187,9 @@ section {
   cursor: pointer;
   margin-left: 5px;
 }
+
+@media (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+}
