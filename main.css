@@ -155,3 +155,24 @@ section {
   color: #777;
   margin-top: 5px;
 }
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-top: 1px solid #ccc;
+}
+
+.chat-footer input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.chat-footer button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
