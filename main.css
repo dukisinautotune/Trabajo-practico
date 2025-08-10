@@ -18,7 +18,7 @@ section {
 }
 
 .sidebar {
-  width: 260px;
+  width: 250px;
   background-color: #fff;
   border-right: 1px solid #ccc;
   padding: 10px;
@@ -44,7 +44,7 @@ section {
 .contact img {
   width: 35px;
   height: 35px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
 .contact.aiden {
@@ -126,12 +126,26 @@ section {
 }
 
 .chat-messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
   padding: 10px 15px;
+  background-color: #f7f8fa;
 }
 
-.message {
+.message-sent {
+  align-self: flex-end;
+  max-width: 50%;
   padding: 10px 15px;
   border-radius: 10px;
   background-color: #e4f1f7;
+}
+
+.message-received {
+  align-self: flex-start;
+  max-width: 50%;
+  background-color: #ededed;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
